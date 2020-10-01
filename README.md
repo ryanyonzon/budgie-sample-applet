@@ -2,6 +2,8 @@
 
 A sample applet for Budgie desktop environment.
 
+So this is basically a template to get you started in Budgie applet development.
+
 ![sample_screenshot](https://raw.githubusercontent.com/rawswift/budgie-sample-applet/master/.github/screenshots/Sample.png)
 
 ## Applet build dependencies
@@ -31,7 +33,7 @@ Install dependencies on Solus:
     meson --prefix=/usr build
     sudo ninja -C build/ install
 
-You may need to restart your system for the newly installed applet to appear in the `Budgie Desktop Settings` > `Bottom Panel` > `Add applet` (list) or run the `budgie-panel` command (on terminal) to restore Budgie's default panel settings:
+You may need to restart your system for the newly installed applet to appear in the `Budgie Desktop Settings` > `Bottom Panel` > `Add applet` (list) or run the `budgie-panel` command (on terminal) to restore Budgie's default panel settings and for the changes to take effect:
 
     budgie-panel --reset --replace &
 
