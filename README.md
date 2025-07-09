@@ -4,7 +4,7 @@ A sample applet for Budgie desktop environment.
 
 So this is basically a template to get you started in Budgie applet development.
 
-![sample_screenshot](https://raw.githubusercontent.com/rawswift/budgie-sample-applet/master/.github/screenshots/Sample.png)
+![sample_screenshot](https://raw.githubusercontent.com/ryanyonzon/budgie-sample-applet/master/.github/screenshots/Sample.png)
 
 ## Applet build dependencies
 
@@ -25,7 +25,7 @@ Install dependencies on Solus:
 
 ## Cloning the repository
 
-    git clone https://github.com/rawswift/budgie-sample-applet.git
+    git clone https://github.com/ryanyonzon/budgie-sample-applet.git
     cd budgie-sample-applet/
 
 ## Building and installation
