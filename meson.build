@@ -39,7 +39,7 @@ prefix = get_option('prefix')
 libdir = join_paths(prefix, get_option('libdir'))
 plugin_libdir = join_paths(libdir, 'budgie-desktop', 'plugins')
 
-applet_namespace = 'com.github.rawswift.budgie-sample-applet'
+applet_namespace = 'com.github.ryanyonzon.budgie-sample-applet'
 applets_dir = join_paths(plugin_libdir, applet_namespace)
 
 subdir('src')
